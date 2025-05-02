@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: rgb(31, 31, 31);
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    
+}
+h1 {
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 100px;
+    line-height: 72px;
+    background-image: url('logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 200px;
+    text-indent: -9999px;
+    
+    
+    
+    
+    
+}
+header li{
+    color: white;
+    display:inline;
+    margin-right: 4vw;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 6vw;
+    line-height: 72px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header a:hover {
+     text-decoration: underline; 
+}
+.first{
+    height: 100vh;
+    background-image: url('logo4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.first h2, p {
+    color: white;
+    
+}
+.first h2{
+    font-size:  55px;
+}
+.first p{
+    font-size: 20px;
+    color: #fef7e6;
+    margin: 25px 0;
+    
+}
+.first a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid #ACACAC;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+main {
+    scroll-behavior: smooth;
+}
