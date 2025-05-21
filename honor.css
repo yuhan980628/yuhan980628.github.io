@@ -1,0 +1,19 @@
+section {
+    height: 100vh;
+    background-image: url('background-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section h1 {
+    color: white;
+    font-size: 45px;
+    position: absolute;
+    top:110vh ;
+
+    
+}
